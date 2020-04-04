@@ -1,0 +1,14 @@
+/*Styling about page*/
+.table{
+    font-size: 1.5rem;
+    margin-top: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.table tr td{
+    min-width: 15vw;
+    background: rgb(45, 48, 58);
+    border: 1px solid rgb(29, 31, 37);
+    padding: 5px 2rem;
+}
