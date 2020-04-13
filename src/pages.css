@@ -27,7 +27,7 @@
 .profile-img{
     width: 25rem;
     padding: 5px;
-    border-radius: 2rem;
+    border-radius: 15px;
 }
 .profile-content{
     padding: 5%;
@@ -57,6 +57,7 @@
 .gallery .img{
     margin: 1%;
     width: 32vw;
+    border-radius: 3px;
 }
 .gallery .wide{
     width: 65.4vw;
