@@ -6,9 +6,88 @@
     align-items: center;
     justify-content: center;
 }
-.table tr td{
+.table tr th{
     min-width: 15vw;
+    background: rgb(35, 38, 46);
+    border: 1px solid rgb(29, 31, 37);
+    padding: 5px 2rem;
+}
+.table tr td{
+    min-width: 20vw;
     background: rgb(45, 48, 58);
     border: 1px solid rgb(29, 31, 37);
     padding: 5px 2rem;
+}
+
+/*styling  Profile */
+.container{
+    display: flex;
+    flex-direction: row;
+}
+.profile-img{
+    width: 25rem;
+    padding: 5px;
+    border-radius: 2rem;
+}
+.profile-content{
+    padding: 5%;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+@media only screen and (max-width: 750px){
+    .container{
+        flex-direction: column;
+        align-items: center;
+    }
+}
+/* Stylling gallery*/
+.gallery{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: stretch;
+    justify-content: center;
+}
+
+.gallery .img{
+    margin: 1%;
+    width: 32vw;
+}
+.gallery .wide{
+    width: 65.4vw;
+}
+@media only screen and (max-width: 900px){
+    .gallery{
+        flex-direction: column;
+    }
+    .gallery .img{
+        width: 100%;
+    }
+}
+
+
+/* Styling contact */
+.contact-section{
+    align-items: flex-start;
+}
+.contact{
+    font-size: 1.5rem;
+    width: 50vw;
+}
+.contact tr td{
+    vertical-align: top;
+    padding: 2% 0;
+}
+@media only screen and (max-width: 500px){
+    .contact-section{
+        align-items: center;
+    }
+    .contact{
+        width: 85vw;
+    }
 }
